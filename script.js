@@ -20,3 +20,8 @@ elems.forEach(function(e){
         elemi.style.backgroundImage = `url(${image})`;
     })
 })
+
+var col = document.querySelector("#text")
+col.addEventListener("onclick",function(h1){
+    h1.style.backgroundColor = "#FE330A"
+})
